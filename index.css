@@ -25,7 +25,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
     background-repeat: no-repeat, no-repeat;
     background-position: -75% 159%, 184% -69%;
 
@@ -45,7 +45,7 @@ body{
 }
 
 .upper{
-    background-image: url("/images/bg-pattern-card.svg");
+    background-image: url("./images/bg-pattern-card.svg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 40%;
@@ -141,6 +141,6 @@ body{
 
 @media (max-width: 375px){
     body{
-        background-position: 123% 195%, -22% -93%;
+            background-position: 123% 195%, -22% -93%;
     }
 }
